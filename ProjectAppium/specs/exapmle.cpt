@@ -1,0 +1,48 @@
+# Uygulamayı kontrol et
+* "5" saniye kadar bekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/tv_startShoppingStore']" sayfasını kontrol et
+* "2" saniye kadar bekle
+# Alışverişe başla alanına tıkla
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/tv_startShoppingStore']" li butona tıkla
+* "2" saniye kadar bekle
+# Kategoriler sayfasını aç
+* "//*[@content-desc='Kategoriler']" li butona tıkla
+* "2" saniye kadar bekle
+# Kadın seçeneğine tıkla
+*"//*[@text='Kadın']" li butona tıkla
+* "2" saniye kadar bekle
+# Pantolon kategorisini aç
+* "//*[@text='Pantolon']" li butona tıkla
+* "3" saniye kadar bekle
+# İki kere scroll yap
+* Scroll yap
+* "2" saniye kadar bekle
+* Scroll yap
+# Rastgele ürün seç
+* "//android.widget.ImageView[@resource-id='com.ozdilek.ozdilekteyim:id/imageView']" Rastgele Ürün Seçildi
+* "2" saniye kadar bekle
+# Favorilere ekle butonuna bas
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/imgFav']" li butona tıkla
+* "2" saniye kadar bekle
+# Giriş yapma sayfası doğrula
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/btnLogin']" sayfasını kontrol et
+* "2" saniye kadar bekle
+# Giriş bilgilerini gir
+* "com.ozdilek.ozdilekteyim:id/etEposta" li giriş bilgileri e posta adresini gir
+* "1" saniye kadar bekle
+* "com.ozdilek.ozdilekteyim:id/etPassword" li giriş bilgileri şifre gir
+* "1" saniye kadar bekle
+* id"com.ozdilek.ozdilekteyim:id/cbRememberMe" li elemente tıkla
+* "1" saniye kadar bekle
+* id"com.ozdilek.ozdilekteyim:id/btnLogin" li elemente tıkla
+* "1" saniye kadar bekle
+# İki kere geri tuşuna bas
+* id"com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* "2" saniye kadar bekle
+* id"com.ozdilek.ozdilekteyim:id/ivBack" li elemente tıkla
+* "2" saniye kadar bekle
+# Sepete ekle
+* "//*[@resource-id='com.ozdilek.ozdilekteyim:id/recyclerSizeList']//*[@resource-id='com.ozdilek.ozdilekteyim:id/relLaySizeIn'][1]" li butona tıkla
+* "2" saniye kadar bekle
+* "//*[@text='SEPETE EKLE']" li butona tıkla
+* "5" saniye kadar bekle
